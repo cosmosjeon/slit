@@ -1,5 +1,16 @@
 {
+  "name": "sl-it-landing",
+  "version": "1.0.0",
+  "description": "SL-IT Landing Page",
+  "main": "0068.html",
+  "scripts": {
+    "build": "echo 'No build step required for static HTML'",
+    "start": "npx serve ."
+  },
   "dependencies": {
     "create-slit": "^1.0.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
   }
 }
